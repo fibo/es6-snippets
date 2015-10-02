@@ -15,7 +15,7 @@ For example [src/class/Point2d.js](https://github.com/fibo/es6-snippets/blob/mas
     node src/class/test_Point2d.js
 
 Some features are not supported yet: in that case the folder or file name containing the code will be prepended with an *underscore* character.
-For example, at the time of this writing (September 2015), *rest parameters* feature is not implemented at all by [Node.js][2] so its folder whould be *src/_rest-parameters*. While *function "name" property* is partially implemented, in particular *variable functions* are not, so the file path will be *src/function-name-property/_variables-function.js*.
+For example, at the time of this writing (September 2015), *rest parameters* feature is not implemented at all by [Node.js][2] so its folder will be *src/_rest-parameters*. While *function "name" property* is partially implemented, in particular *variable functions* are not, so the file path will be *src/function-name-property/_variables-function.js*.
 
   [1]: http://kangax.github.io/compat-table/es6/ "ECMAScript 6 compatibility table"
   [2]: http://nodejs.org/ "Node.js"
